@@ -14,12 +14,12 @@ This Python code demonstrates the following features:
 
 import smtplib
 
-smtp = {"sender": "30025521@students.sunitafe.edu.au",    # elasticemail.com verified sender
-        "recipient": "30025521@students.sunitafe.edu.au", # elasticemail.com verified recipient
+smtp = {"sender": "",    # elasticemail.com verified sender
+        "recipient": "", # elasticemail.com verified recipient
         "server": "in-v3.mailjet.com",      # elasticemail.com SMTP server
         "port": 587,                           # elasticemail.com SMTP port
-        "user": " 7da0ebd80c8a1f03a887be005c656d09",      # elasticemail.com user
-        "password": "a90cbe73f0a637bcf8fa729f5d7da1a9"}     # elasticemail.com password
+       
+   
 
 # append all error messages to email and send
 def sendEmail(message):
